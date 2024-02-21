@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import GlobalStyle from "./styled/GlobalStyled";
-import AddTodoInputBox from "./components/AddTodoInputBox";
-import TodoList from "./components/TodoList";
+import AddTodoInputBox from "./components/Input/AddTodoInputBox";
+import TodoList from "./components/List/TodoList";
 
 function App() {
   return (

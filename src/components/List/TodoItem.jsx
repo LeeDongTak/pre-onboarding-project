@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "./Button";
-import useClickTodoHandler from "../hooks/useClickTodoHandler";
+import Button from "../Common/Button";
+import useClickTodoHandler from "../../hooks/useClickTodoHandler";
 
 const TodoItem = ({ item }) => {
   const { id, todo } = item;

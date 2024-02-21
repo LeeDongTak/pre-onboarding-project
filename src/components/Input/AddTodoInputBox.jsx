@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Button from "./Button";
-import useClickTodoHandler from "../hooks/useClickTodoHandler";
+import Button from "../Common/Button";
+import useClickTodoHandler from "../../hooks/useClickTodoHandler";
 
 const AddTodoInputBox = () => {
   const { todoText, changeTodoTextHandler, clickAddTodoHandler } =
